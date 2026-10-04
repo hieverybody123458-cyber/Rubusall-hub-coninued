@@ -311,7 +311,7 @@ local Entities = {
         },
         ["SallyMoving"] = {
                 Alias = "Салли",
-                NotifyMessage = { Title = "Entity 'Sally' has spawned.", Body = "Find her horse and rop it.”
+                NotifyMessage = { Title = "Entity 'Sally' has spawned.", Body = "Find her horse and rop it."
  }
         }
 }
@@ -386,7 +386,7 @@ local ItemNames = {
         ["Scanner"]           = "Сканнер",
         ["Bomb"]              = "Бомба",
         ["Knockbomb"]         = "Кнок бомба",
-        ["Nanner"]            = "Наннер?",
+        ["Nanner"]            = "Бананчики",
         ["BigBomb"]           = "Большая бомба",
         ["SnakeBox"]          = "Коробка для прятания",
         ["GoldGun"]           = "Оружка",
@@ -400,13 +400,13 @@ local ItemNames = {
         ["LanternLitItem"]    = "Фонарь",
         ["KeyIron"]           = "Ключ",
         ["IronKeyForCrypt"]   = "Ключ",
-        ["LotusHolder"]       = "Лист лотусаl",
+        ["LotusHolder"]       = "Лист лотуса",
         ["Multitool"]         = "Мульти штука",
         ["RiftJar"]           = "Разломная банка",
         ["AloeVera"]          = "Алоэ",
         ["Donut"]             = "Пончик",
         ["Lotus"]             = "Лотус",
-        ["BoxingGloves"]      = "Боксёрские перчатки”
+        ["BoxingGloves"]      = "Боксёрские перчатки"
 }
 
 
