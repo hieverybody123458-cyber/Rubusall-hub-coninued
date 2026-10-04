@@ -211,7 +211,7 @@ local Objects = {
 }
 
 
-Globals.IncompatibleMessage = "Your executor doesn't support this feature."
+Globals.IncompatibleMessage = "Твой экзекьютор хуйня."
 
 
 Functions.CheckCompatability = function(Array)
@@ -226,7 +226,7 @@ end
 
 local Entities = {
         ["StemsEntity"] = {
-            Alias = 'Шары',
+            Alias = 'Стемы',
                 NotifyMessage = { Title = "Человек яйца", Body = "Человек человек яйца."}
         },
         ["NoiseModel"] = {
@@ -242,8 +242,8 @@ local Entities = {
                 NotifyMessage = { Title = "Дронная толпа появилась.", Body = "Найди место где спрятаться." }
         },
         ["TellerRig"] = {
-                Alias = "Контролёр",
-                NotifyMessage = { Title = "Контролёр появился.", Body = "Не переживай он не монстр." }
+                Alias = "Теллер",
+                NotifyMessage = { Title = "Теллер появился.", Body = "Не переживай он не монстр." }
         },
         ["Scribbles"] = {
                 Alias = "Буймажки",
@@ -343,7 +343,7 @@ local ItemNames = {
         ["GweenSodaPack"]     = "Гвин пак колы",
         ["BrokenMonitor"]     = "Сломаный монитор",
         ["JerryCan"]          = "Банка Джерри",
-         ["SallyToyObtain"]    = "Игрушка салли",
+        ["SallyToyObtain"]    = "Игрушка салли",
         ["Leftovers"]         = "Ланчбокс",
         ["HoneyPot"]          = "Ммм медок",
         ["FihFlakes"]         = "Корм для рыб",
@@ -358,9 +358,9 @@ local ItemNames = {
         ["StarVial"]          = "Пробирка мочи",
         ["StarBottle"]        = "Чекушка мочи",
         ["StarJug"]           = "Банка мочи",
-        ["Shakelight"]        = "Бесконечный фонарик",
-        ["Straplight"]        = "Straplight",
-        ["Bulklight"]         = "Spotlight",
+        ["Shakelight"]        = "Трясосвет",
+        ["Straplight"]        = "Грудной фонарик",
+        ["Bulklight"]         = "Мощный фонарик",
         ["Battery"]           = "Батарейка",
         ["Candle"]            = "Свеча",
         ["Crucifix"]          = "Крест",
@@ -702,7 +702,7 @@ Globals.DoorsNotify = function(NotifyOptions)
 end
 
 
-Globals.STX = loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Components/STX.luau"))()
+Globals.STX = loadstring(game:HttpGet(""))()
 Functions.Notify = function(Settings)
         local HiddenContainer = GetHiddenContainer()
 
