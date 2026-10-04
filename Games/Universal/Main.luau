@@ -11,17 +11,16 @@ local Services = setmetatable({}, {
 local Bindable = Instance.new("BindableFunction")
 Bindable.OnInvoke = function(Response)
     local Success, Result = pcall(function()
-        toclipboard("https://dsc.gg/abysallhub")
+        toclipboard("я не хочу создавать дс канал")
     end)
     if not Success then
-        Services.LocalPlayer:Kick("Failed to copy invite.\nhttps://dsc.gg/abysallhub")
+        Services.LocalPlayer:Kick("Не получилось загрузить")
     end
 end
 
 Services.StarterGui:SetCore("SendNotification", {
-    Title = "Abysall Hub",
-    Text = "Only DOORS is supported right now, sorry :)",
+    Title = "Rubysall Hub",
+    Text = "Скрипт предназначен только для Doors",
     Duration = 10,
-    Button1 = "Copy Discord Invite",
     Callback = Bindable,
 })
