@@ -28,7 +28,7 @@ getgenv().Abysall = {
 }
 
 
-local BaseUrl = "https://raw.githubusercontent.com/hieverybody123458-cyber/Rubusall-hub-continued/main/Games/Doors/Main.luau"
+local BaseUrl = "https://raw.githubusercontent.com/hieverybody123458-cyber/Rubusall-hub-coninued/main/Games/Doors/Main.luau"
 
 
 getgenv().Abysall = {
