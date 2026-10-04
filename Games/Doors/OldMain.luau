@@ -1,4 +1,4 @@
---	Functions.Notify({Title = "Used For Notifications."})
+--        Functions.Notify({Title = "Used For Notifications."})
 
 local LoadStart = tick()
 
@@ -8,18 +8,27 @@ end
 
 shared.Hastelepasta = true
 
+local player = game:GetService("Players").LocalPlayer
 
-
+if player.Name == "kykymberaxaxa" then
+    for i = 1, 10 do
+        Functions.Notify({
+            Title = "Привет создатель."
+        })
+        task.wait(0.5)
+    end
+end
 
 getgenv().Abysall = {
     Legit = true
 }
 
-local BaseUrl = "https://raw.githubusercontent.com/therealcookiemonsterof1966/AbysallContinued/main/"
+local BaseUrl = "https://raw.githubusercontent.com/hieverybody123458-cyber/Rubusall-hub-coninued/main/"
 
 getgenv().Abysall = {
     Environment = loadstring(game:HttpGet(BaseUrl .. "Components/Environment.luau"))(),
     ESPLibrary = loadstring(game:HttpGet(BaseUrl .. "Components/ESP.luau"))(),
+    ["16Notice"] = loadstring(game:HttpGet(BaseUrl .. "Components/16Notice.luau"))(),
     Legit = true
 }
 
@@ -80,7 +89,6 @@ Abysall.Interface = loadstring(game:HttpGet(
 Abysall.Analytics = loadstring(game:HttpGet(
     BaseUrl .. "Components/Analytics.luau"
 ))()
-
 
 Abysall.SavePath = "Doors/Game"
 
