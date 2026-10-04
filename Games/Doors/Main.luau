@@ -834,7 +834,7 @@ end
 
 if not LocalPlayer.Character or not CurrentRooms:FindFirstChildOfClass("Model") then
         Functions.Notify({ Title = "Waiting for the game to load..." })
-        queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/therealcookiemonsterof1966/AbysallContinued/main/Games/Doors/Main.luau"))()]])
+        queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/hieverybody123458-cyber/Rubusall-hub-coninued/main/Games/Doors/Main.luau"))()]])
         while not LocalPlayer.Character or not CurrentRooms:FindFirstChildOfClass("Model") do
                 task.wait()
         end
