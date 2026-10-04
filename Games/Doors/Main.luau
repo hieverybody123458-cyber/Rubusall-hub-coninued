@@ -12,30 +12,23 @@ end
 shared.Hastelepasta = true
 
 
-if game.Players.LocalPlayer.Name == "kykymberaxaxa" then
+local player = game:GetService("Players").LocalPlayer
+
+if player.Name == "kykymberaxaxa" then
     for i = 1, 10 do
         Functions.Notify({
             Title = "Привет создатель."
         })
-        task.wait()
+        task.wait(0.5)
     end
 end
-
-
-
-
-
-
-
-
-
 
 getgenv().Abysall = {
     Legit = true
 }
 
 
-local BaseUrl = "https://raw.githubusercontent.com/therealcookiemonsterof1966/AbysallContinued/main/"
+local BaseUrl = "https://raw.githubusercontent.com/hieverybody123458-cyber/Rubusall-hub-continued/main/Games/Doors/Main.luau"
 
 
 getgenv().Abysall = {
